@@ -18,22 +18,22 @@ $('document').ready(
 		/*grab user input*/
 		city = $('#city-type').val();
 		if(city === 'NYC' || city ==='nyc' || city === 'New York' || city === 'New York City') {
-		$('body').addClass('nyc')
-		$('#city-type').val('');
+			$('body').addClass('nyc')
+			$('#city-type').val('');
 		} else if (city === 'San Francisco' || city === 'SF' || city === 'sf' || city === 'Bay Area') {
-		$('body').addClass('sf')
-		$('#city-type').val('');
+			$('body').addClass('sf')
+			$('#city-type').val('');
 		} else if (city === 'Los Angeles' || city === 'LA' || city === 'la' || city === 'LAX') {
-		$('body').addClass('la');
-		$('#city-type').val('');
+			$('body').addClass('la');
+			$('#city-type').val('');
 		} else if (city === 'Austin' || city === 'ATX' || city === 'atx') {
-		$('body').addClass('austin')
-		$('#city-type').val('');
+			$('body').addClass('austin')
+			$('#city-type').val('');
 		} else if (city === 'Sydney' || city === 'SYD' || city === 'syd') {
-		$('body').addClass('sydney')
-		$('#city-type').val('');
+			$('body').addClass('sydney')
+			$('#city-type').val('');
 		} else {
 		/*for all unsupported cases*/
-		window.alert('Sorry, that does not appear to be a valid input');
+			window.alert('Sorry, that does not appear to be a valid input');
 		}
 	};	

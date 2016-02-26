@@ -103,6 +103,7 @@ header {
   vertical-align: middle;
   font-weight: lighter;
 }
+
 #submit-btn {
   background: #000;
   color: #fff;
@@ -120,6 +121,7 @@ header {
   font-family: helvetica, arial, sans-serif;
   cursor: pointer;
 }
+
 #submit-btn:hover {
   background: #333;
 }
